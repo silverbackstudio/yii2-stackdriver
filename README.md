@@ -1,0 +1,1 @@
+# Yii Framekork Google Cloud Platform / Stackdriver Log Target

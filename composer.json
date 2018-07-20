@@ -1,0 +1,31 @@
+{
+    "name": "silverback/yii2-stackdriver",
+    "description": "Stackdriver logger and error handler for the Yii framework",
+    "keywords": ["yii2", "stackdriver", "log", "logger", "cloud-logging", "google", "google-cloud", "google-cloud-platform", "php" ],
+    "type": "yii2-extension",    
+    "require": {
+        "yiisoft/yii2": "^2.0.14",
+        "google/cloud-core": "^1.21.1",
+        "google/cloud-logging": "^1.12",
+        "google/cloud-error-reporting": "^0.11.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },    
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "yii\\stackdriver\\": "src" }
+    },    
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],      
+    "authors": [
+        {
+            "name": "Brando Meniconi",
+            "email": "b.meniconi@silverbackstudio.it"
+        }
+    ]
+}
