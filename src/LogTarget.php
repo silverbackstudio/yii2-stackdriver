@@ -26,7 +26,7 @@ use Google\Cloud\Core\Report\SimpleMetadataProvider;
  * @author miramir <gmiramir@gmail.com>
  * @since 2.0
  */
-class StackdriverTarget extends Target
+class LogTarget extends Target
 {
     /**
      * @var string stackdriver log name
