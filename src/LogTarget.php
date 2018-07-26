@@ -114,10 +114,6 @@ class LogTarget extends Target
     		        'remoteIp' => $app->request->getRemoteIP(),
     		    );
             }
-		    
-		    if ( array_key_exists( $category, $this->errorSeverity ) ) {
-		        $level = $this->errorSeverity[$category];
-		    }
 		
 			$this->psrLogger->log( $this->_syslogLevels[$level], $text, $context );
 		}        
